@@ -1,0 +1,69 @@
+{
+  "title": "Commerce des marchandises, US $, SH 1992, 52 Coton",
+  "name": "commerce-des-marchandises-coton",
+  "sources": [{
+        "name": "UN Data",
+        "web": "http://data.un.org/Data.aspx?q=senegal&d=ComTrade&f=_l1Code%3a53%3brtCode%3a686"
+    }],
+  "contributors":[ {
+      "name": "Ibrahima SENE",
+      "email": "seneibrahima@gmail.com"
+  }],
+  "licenses": [
+      {
+          "id": "odc-pddl",
+          "name": "Public Domain Dedication and License",
+          "version": "1.0",
+          "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+      }
+  ],
+  "resources": [
+    {
+      "name": "Commerce des marchandises Coton",
+      "path": "data/Commerce-des-marchandises-Coton.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 199672,
+      "schema": {
+        "fields": [
+          {
+            "name": "Country or Area",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Comm. Code",
+            "type": "integer"
+          },
+          {
+            "name": "Commodity",
+            "type": "string"
+          },
+          {
+            "name": "Flow",
+            "type": "string"
+          },
+          {
+            "name": "Trade (USD)",
+            "type": "integer"
+          },
+          {
+            "name": "Weight (kg)",
+            "type": "integer"
+          },
+          {
+            "name": "Quantity Name",
+            "type": "string"
+          },
+          {
+            "name": "\"Quantity\"\t\t\t\t\t\t\t\t\t\t\t",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
